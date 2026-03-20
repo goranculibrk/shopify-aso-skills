@@ -1,38 +1,7 @@
 ---
 name: aso-daily
 version: 1.1.0
-description: |
-  Daily ASO dashboard for a Shopify app. Shows pulse metrics, keyword movements,
-  ad snapshot, competitor changes, flags, and 3 action items. Quick to scan,
-  focused on what changed. Run with /aso-daily followed by an app name or slug.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Bash
-  - Agent
-  - AskUserQuestion
-  - mcp__ranksy__search
-  - mcp__ranksy__list-team-apps
-  - mcp__ranksy__get-app-info
-  - mcp__ranksy__get-app-listings
-  - mcp__ranksy__get-category-rankings
-  - mcp__ranksy__get-keyword-rankings
-  - mcp__ranksy__get-keyword-daily-trends
-  - mcp__ranksy__get-ranking-history
-  - mcp__ranksy__get-traffic-overview
-  - mcp__ranksy__get-traffic-keywords
-  - mcp__ranksy__get-traffic-source-trends
-  - mcp__ranksy__get-keyword-installs-by-source
-  - mcp__ranksy__get-cannibalization-report
-  - mcp__ranksy__get-ad-keyword-performance
-  - mcp__ranksy__get-conversion-funnel
-  - mcp__ranksy__get-installations
-  - mcp__ranksy__get-competitors
-  - mcp__ranksy__get-reviews
-  - mcp__ranksy__get-recent-reviews
-  - mcp__ranksy__get-top-movers
-  - mcp__ranksy__get-keyword-apps-rankings
+description: "Daily ASO dashboard for a Shopify app. Shows pulse metrics, keyword movements, ad snapshot, competitor changes, flags, and 3 action items."
 ---
 
 # ASO Daily: Shopify App Store Daily Dashboard

@@ -1,55 +1,7 @@
 ---
 name: aso-deep-dive
 version: 3.0.0
-description: |
-  Deep ASO (App Store Optimization) analysis for Shopify apps. Analyzes rankings,
-  traffic trends, keyword performance, organic vs ad cannibalization, competitor
-  positioning, and generates listing improvement recommendations. Uses Ranksy MCP
-  tools exclusively. Run with /aso-deep-dive followed by an app name or slug.
-allowed-tools:
-  - Read
-  - Write
-  - Edit
-  - Grep
-  - Glob
-  - Bash
-  - Agent
-  - AskUserQuestion
-  - mcp__ranksy__search
-  - mcp__ranksy__list-team-apps
-  - mcp__ranksy__get-team-app-details
-  - mcp__ranksy__get-app-info
-  - mcp__ranksy__get-app-listing
-  - mcp__ranksy__get-app-rankings
-  - mcp__ranksy__get-category-rankings
-  - mcp__ranksy__get-keyword-rankings
-  - mcp__ranksy__get-keyword-apps-rankings
-  - mcp__ranksy__get-keyword-daily-trends
-  - mcp__ranksy__get-ranking-history
-  - mcp__ranksy__get-traffic-overview
-  - mcp__ranksy__get-traffic-keywords
-  - mcp__ranksy__get-traffic-source-trends
-  - mcp__ranksy__get-installs-by-keyword
-  - mcp__ranksy__get-installs-by-category
-  - mcp__ranksy__get-keyword-installs-by-source
-  - mcp__ranksy__get-cannibalization-report
-  - mcp__ranksy__get-ad-keyword-performance
-  - mcp__ranksy__get-attribution-data
-  - mcp__ranksy__get-conversion-funnel
-  - mcp__ranksy__get-revenue-overview
-  - mcp__ranksy__get-installations
-  - mcp__ranksy__get-churn-analysis
-  - mcp__ranksy__get-subscriptions
-  - mcp__ranksy__get-competitor-listings
-  - mcp__ranksy__get-competitors
-  - mcp__ranksy__get-outranked-keywords
-  - mcp__ranksy__get-shopify-guidelines
-  - mcp__ranksy__get-reviews
-  - mcp__ranksy__get-recent-reviews
-  - mcp__ranksy__get-top-movers
-  - mcp__ranksy__save-listing-improvement
-  - mcp__notion__notion-create-pages
-  - mcp__notion__notion-search
+description: "Deep ASO analysis for Shopify apps. Analyzes rankings, traffic, keyword performance, ad cannibalization, competitors, and generates listing improvements."
 ---
 
 # ASO Deep Dive: Shopify App Store Optimization Analysis
