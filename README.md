@@ -1,6 +1,6 @@
-# Shopify ASO Skills
+# Ranksy Skills
 
-Claude Code plugin for Shopify App Store Optimization (ASO). Powered by [Ranksy](https://ranksyapp.com) MCP tools.
+Claude Code plugin for Shopify app analytics. Powered by [Ranksy](https://ranksyapp.com) MCP tools.
 
 ## Skills Included
 
@@ -34,7 +34,7 @@ A full ASO audit covering three pillars — Rankings, Performance, and Listing C
 ## Installation
 
 ```bash
-/plugin install github:goranculibrk/shopify-aso-skills
+/plugin install github:goranculibrk/ranksy-skills
 ```
 
 ## Usage
@@ -51,9 +51,9 @@ You can use either the app name or Shopify app slug. The skill will search for t
 If you prefer not to use the plugin system:
 
 ```bash
-git clone https://github.com/goranculibrk/shopify-aso-skills.git
-ln -s "$(pwd)/shopify-aso-skills/skills/aso-daily" ~/.claude/skills/aso-daily
-ln -s "$(pwd)/shopify-aso-skills/skills/aso-deep-dive" ~/.claude/skills/aso-deep-dive
+git clone https://github.com/goranculibrk/ranksy-skills.git
+ln -s "$(pwd)/ranksy-skills/skills/aso-daily" ~/.claude/skills/aso-daily
+ln -s "$(pwd)/ranksy-skills/skills/aso-deep-dive" ~/.claude/skills/aso-deep-dive
 ```
 
 ## License

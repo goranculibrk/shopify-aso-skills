@@ -1,6 +1,6 @@
 {
-  "name": "shopify-aso-skills",
-  "description": "ASO (App Store Optimization) skills for Shopify apps. Daily dashboards and deep-dive analysis powered by Ranksy.",
+  "name": "ranksy-skills",
+  "description": "Claude Code skills powered by Ranksy. ASO dashboards, deep-dive analysis, and app-specific reports for Shopify apps.",
   "version": "1.0.0",
   "author": {
     "name": "Goran Culibrk"
