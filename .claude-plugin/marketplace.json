@@ -1,12 +1,23 @@
 {
-  "name": "Ranksy Skills",
+  "name": "ranksy-skills",
+  "owner": {
+    "name": "goranculibrk"
+  },
+  "metadata": {
+    "description": "Claude Code skills powered by Ranksy for Shopify app analytics",
+    "version": "1.0.0"
+  },
   "plugins": [
     {
       "name": "ranksy-skills",
-      "source": {
-        "source": "local",
-        "path": "."
-      }
+      "source": "./",
+      "description": "ASO dashboards, deep-dive analysis, and app-specific reports for Shopify apps.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Goran Culibrk"
+      },
+      "keywords": ["shopify", "aso", "app-store-optimization", "ranksy"],
+      "category": "analytics"
     }
   ]
 }
