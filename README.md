@@ -15,6 +15,17 @@ A 60-second scan of what changed. Generates a concise daily report with:
 - **Flags** — threshold-based alerts
 - **3 action items** — force-prioritized, most impactful first
 
+### `/app-performance` — Business Health Report
+
+A quick business health check. Generates a performance report covering:
+
+- **Installations** — active installs, weekly install/uninstall trends, free vs paid breakdown
+- **Revenue** — MRR, MoM growth, net MRR added (gross minus churn)
+- **Conversion funnel** — install-to-trial, trial-to-paid rates, cohort revenue
+- **Churn** — logo and revenue churn with 6-month trend and averages
+- **Plan mix** — subscription distribution, monthly vs annual, MRR by plan
+- **3 action items** — data-driven, prioritized by impact
+
 ### `/aso-deep-dive` — Comprehensive Analysis
 
 A full ASO audit covering three pillars — Rankings, Performance, and Listing Copywriting:
@@ -61,6 +72,7 @@ This automatically installs to your `.agents/skills/` directory (and symlinks in
 ```
 /aso-daily my-app-name
 /aso-deep-dive my-app-name
+/app-performance my-app-name
 ```
 
 You can use either the app name or Shopify app slug. The skill will search for the correct slug if needed.
