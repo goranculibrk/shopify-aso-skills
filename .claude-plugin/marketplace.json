@@ -12,10 +12,11 @@
       "name": "ranksy-skills",
       "source": "./",
       "description": "ASO dashboards, deep-dive analysis, and app-specific reports for Shopify apps.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Goran Culibrk"
-      },
+      "strict": false,
+      "skills": [
+        "./skills/aso-daily",
+        "./skills/aso-deep-dive"
+      ],
       "keywords": ["shopify", "aso", "app-store-optimization", "ranksy"],
       "category": "analytics"
     }
