@@ -41,8 +41,8 @@ A full ASO audit covering three pillars — Rankings, Performance, and Listing C
 ## Usage
 
 ```
-/aso-daily my-app-name
-/aso-deep-dive my-app-name
+/ranksy-skills:aso-daily my-app-name
+/ranksy-skills:aso-deep-dive my-app-name
 ```
 
 You can use either the app name or Shopify app slug. The skill will search for the correct slug if needed.
@@ -53,8 +53,8 @@ If you prefer not to use the plugin system:
 
 ```bash
 git clone https://github.com/goranculibrk/ranksy-skills.git
-ln -s "$(pwd)/ranksy-skills/skills/aso-daily" ~/.claude/skills/aso-daily
-ln -s "$(pwd)/ranksy-skills/skills/aso-deep-dive" ~/.claude/skills/aso-deep-dive
+ln -s "$(pwd)/ranksy-skills/.claude/skills/aso-daily" ~/.claude/skills/aso-daily
+ln -s "$(pwd)/ranksy-skills/.claude/skills/aso-deep-dive" ~/.claude/skills/aso-deep-dive
 ```
 
 ## License
