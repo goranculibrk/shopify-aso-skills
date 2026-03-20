@@ -1,0 +1,12 @@
+{
+  "name": "Ranksy Skills",
+  "plugins": [
+    {
+      "name": "ranksy-skills",
+      "source": {
+        "source": "local",
+        "path": "."
+      }
+    }
+  ]
+}

@@ -33,8 +33,9 @@ A full ASO audit covering three pillars — Rankings, Performance, and Listing C
 
 ## Installation
 
-```bash
-/plugin install github:goranculibrk/ranksy-skills
+```
+/plugin marketplace add goranculibrk/ranksy-skills
+/plugin install ranksy-skills
 ```
 
 ## Usage
