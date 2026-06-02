@@ -16,9 +16,10 @@
       "skills": [
         "./skills/aso-daily",
         "./skills/aso-deep-dive",
-        "./skills/app-performance"
+        "./skills/app-performance",
+        "./skills/built-for-shopify"
       ],
-      "keywords": ["shopify", "aso", "app-store-optimization", "ranksy"],
+      "keywords": ["shopify", "aso", "app-store-optimization", "ranksy", "built-for-shopify", "polaris"],
       "category": "analytics"
     }
   ]

@@ -26,6 +26,21 @@ A quick business health check. Generates a performance report covering:
 - **Plan mix** — subscription distribution, monthly vs annual, MRR by plan
 - **3 action items** — data-driven, prioritized by impact
 
+### `/built-for-shopify` — BFS Compliance Guide
+
+A field guide to building Shopify embedded-app admin UIs that pass the **Built for Shopify** review. Stack-agnostic (Polaris React *and* Polaris Web Components), keyed to the official criterion numbers:
+
+- **Criterion → implementation map** — every BFS requirement linked to a concrete fix
+- **Contextual save bar, buttons, nav** — 4.1.x, in both Polaris stacks
+- **Core Web Vitals** — CLS skeleton matching, LCP trimming, SSR hydration fixes (2.1.x)
+- **Web pixel + app-embed status + GraphQL-only** — 5.x.1, 4.2.3, April-2025 API rule
+- **Banners, cards, the admin-iframe mobile trap, a11y** — 4.1.2 / 4.3.x / WCAG AA
+- **Build-order checklist** to paste into your BFS ticket
+
+In-depth `references/` files per theme. Official requirements: https://shopify.dev/docs/apps/launch/built-for-shopify/requirements.md
+
+> Unlike the other skills, this one needs no Ranksy MCP — it's pure guidance.
+
 ### `/aso-deep-dive` — Comprehensive Analysis
 
 A full ASO audit covering three pillars — Rankings, Performance, and Listing Copywriting:
